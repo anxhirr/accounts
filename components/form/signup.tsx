@@ -51,8 +51,9 @@ export function SignupForm({
   async function onSubmit(values: SignupSchemaType) {
     const res = await performAction(values)
     if (res.error) return toast.error(res.error.message)
-    const path = searchParams.get("redirectUrl") || "/"
-    router.push(path)
+    // const path = searchParams.get("redirectUrl") || "/"
+    // router.push(path)
+    router.push(`signup-confirm/${res.data.user?.id}`)
   }
   return (
     <Form {...form}>

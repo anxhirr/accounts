@@ -15,5 +15,9 @@
   "Last name": "Last name",
   "First name": "First name",
   "Enter your information to create an account": "Enter your information to create an account",
-  "Sign Up": "Sign Up"
+  "Sign Up": "Sign Up",
+  "Confirmation Code": "Confirmation Code",
+  "Verify your email": "Verify your email",
+  "We've sent a verification code to {email}": "We've sent a verification code to {email}",
+  "Please enter it below to complete your registration": "Please enter it below to complete your registration"
 }
